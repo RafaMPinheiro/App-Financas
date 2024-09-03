@@ -40,7 +40,7 @@ export const InputMoney = styled(CurrencyInput).attrs(({ theme }) => ({
   padding: 16px;
   border-width: 1px;
   border-color: ${theme.divider};
-  color: ${theme.placeholder};
+  color: ${theme.textTitles};
 `;
 
 export const InputText = styled(Text)`

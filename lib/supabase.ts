@@ -6,9 +6,9 @@ import { createClient } from '@supabase/supabase-js';
 import type { Database } from './types.supabase';
 
 const supabaseUrl = YOUR_REACT_NATIVE_SUPABASE_URL
-const supabaseAnonKey = YOUR_REACT_NATIVE_SUPABASE_ANON_KEY
+const supabaseKey = YOUR_REACT_NATIVE_SUPABASE_KEY
 
-export const supabase = createClient<Database>(supabaseUrl, supabaseAnonKey, {
+export const supabase = createClient<Database>(supabaseUrl, supabaseKey, {
   auth: {
     storage: AsyncStorage,
     autoRefreshToken: true,
