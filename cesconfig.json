@@ -1,6 +1,6 @@
 {
   "cesVersion": "2.11.22",
-  "projectName": "app-financas",
+  "projectName": "meubolso",
   "packages": [
     {
       "name": "stylesheet",
